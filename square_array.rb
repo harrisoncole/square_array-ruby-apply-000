@@ -1,12 +1,7 @@
 def square_array(array)
   arr = []
-  i = 0
-  while i < arr.length
-    arr.push(array[i]**2)
 
-    i += 1
-
-  end
-
+  arr.each { |x| arr.push(x ** 2)}
+  
   return arr
 end
